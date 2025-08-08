@@ -1,0 +1,38 @@
+{
+  "type": "record",
+  "name": "PickEvent",
+  "fields": [
+    {
+      "name": "event_ts",
+      "type": "string"
+    },
+    {
+      "name": "order_id",
+      "type": "string"
+    },
+    {
+      "name": "sku",
+      "type": "string"
+    },
+    {
+      "name": "qty",
+      "type": "int"
+    },
+    {
+      "name": "location_id",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "staff",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}

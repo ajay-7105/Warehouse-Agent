@@ -1,0 +1,2 @@
+-- price_rules_template.sql
+-- Add custom business rules for pricing here.

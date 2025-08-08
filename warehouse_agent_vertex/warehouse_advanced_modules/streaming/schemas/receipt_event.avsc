@@ -1,0 +1,34 @@
+{
+  "type": "record",
+  "name": "ReceiptEvent",
+  "fields": [
+    {
+      "name": "event_ts",
+      "type": "string"
+    },
+    {
+      "name": "sku",
+      "type": "string"
+    },
+    {
+      "name": "qty",
+      "type": "int"
+    },
+    {
+      "name": "location_id",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "supplier",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}
